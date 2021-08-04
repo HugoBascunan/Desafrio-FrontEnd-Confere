@@ -1,0 +1,219 @@
+/*-----------Reset----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------PageStore--------------*/
+
+.page{
+    background-color: rgb(231, 231, 231);
+
+}
+       /*CABEÇALHO*/
+.top{
+    background-color: rgb(211, 211, 211);
+    height: 210px;
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.barra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+}
+
+.cart{
+    display: flex;
+    align-items: baseline;
+}
+
+.cart:hover{
+    background: rgb(177, 175, 175);
+}
+
+.cart:active{
+    background: gray;
+}
+
+.numCart{
+    background-color: rgb(149, 20, 255);
+    border: 5px solid rgb(149, 20, 255) ;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+        /*CORPO DA PÁGINA*/
+
+.lista{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgb(211, 211, 211);
+    margin-block: 10px;
+    margin-left: 20px;
+}
+
+.imagem{
+   margin-top: 20px;
+   border-radius: 20px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.btn{
+    margin-block: 10px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 9px 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background:rgb(224, 224, 224);
+    color:black;
+}
+
+.btn:active{
+    background:rgb(146, 146, 146);
+    color:black;
+}
+
+.regularPrice{
+    
+    text-align: center;
+}
+
+.discDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actualPrice{
+    text-align: center;
+    color: rgb(238, 3, 3);
+}
+
+.discPercent{
+    text-align: center;
+    color: rgb(160, 3, 238);
+}
+
+.availability{
+    margin: 8px;
+    color:rgb(160, 3, 238);
+}
+
+        /*RODAPÈ*/
+
+.footer{
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}
+
+/*-----------PageCart-------------*/
+
+.title2{
+    text-align: center;
+}
+
+.produtosCarrinho{
+    background-color: rgb(231, 231, 231);
+    text-align: left;
+}
+
+.finalCarrinho{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.btnVoltar{
+    margin-block: 10px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+}
+    
+.btnVoltar:hover{
+    background:rgb(224, 224, 224);
+    color:black;
+}
+    
+.btnVoltar:active{
+    background:rgb(146, 146, 146);
+    color:black;
+}  
+
+.btnFinal{
+    margin-block: 10px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 9px 150px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+    
+.btnFinal:hover{
+    background:rgb(224, 224, 224);
+    color:black;
+}
+    
+.btnFinal:active{
+    background:green;
+    color:black;
+}  
+
+
+.titulolista{
+    margin-left: 50px;
+}
+
+.voltar{ 
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: baseline;
+}
